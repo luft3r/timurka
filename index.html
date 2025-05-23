@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Тимур</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <span class="rocket-bg">🚀</span>
+    <span class="planet-bg">🪐</span>
+    <span class="star-bg">🌟</span>
+    <span class="ufo-bg">🛸</span>
+    <span class="moon-bg">🌙</span>
+    <span class="alien-bg">👽</span>
+    <span class="star2-bg">✨</span>
+    <span class="star3-bg">🌠</span>
+    <span class="satellite-bg">🛰️</span>
+    <span class="comet-bg">☄️</span>
+    <span class="astro-bg">👨‍🚀</span>
+    <span class="star4-bg">✨</span>
+    <span class="star5-bg">🌟</span>
+    <div class="container">
+        <h1>Тимур</h1>
+        <div class="subtitle">Мій племінник</div>
+        <div class="about">
+            <b>Про Тимура:</b><br>
+            Тимур — веселий, добрий і дуже допитливий хлопчик. Він любить гратися машинками, збирати конструктори та гуляти на свіжому повітрі. Завжди радіє новим відкриттям і із задоволенням пізнає світ навколо себе!
+        </div>
+        <div class="quote">
+            «Дитинство — це коли все дивовижно і нічого не викликає подиву.»
+        </div>
+        <div class="interests">
+            <div class="interests-title">Інтереси Тимура</div>
+            <div class="interests-list">
+                <div class="interest">
+                    <span class="interest-icon">🚗</span>
+                    <span class="interest-label">Машинки</span>
+                </div>
+                <div class="interest">
+                    <span class="interest-icon">🧩</span>
+                    <span class="interest-label">Конструктори</span>
+                </div>
+                <div class="interest">
+                    <span class="interest-icon">🚴‍♂️</span>
+                    <span class="interest-label">Велосипед</span>
+                </div>
+                <div class="interest">
+                    <span class="interest-icon">🌌</span>
+                    <span class="interest-label">Космос</span>
+                </div>
+            </div>
+        </div>
+        <div class="facts">
+            <b>Цікаві факти про Тимура:</b>
+            <ul>
+                <li>Обожнює будувати вежі з кубиків і LEGO.</li>
+                <li>Любить кататися на велосипеді та самокаті.</li>
+                <li>Завжди допомагає батькам і старшим.</li>
+                <li>Мріє стати космонавтом.</li>
+            </ul>
+        </div>
+        <a class="download-btn" id="downloadBtn" href="#" onclick="return false;">Завантажити улюблене фото</a>
+        <div id="download-modal" class="download-modal">
+            <div class="download-modal-content">
+                <span class="download-modal-close" id="downloadModalClose">&times;</span>
+                <h3>Оберіть фото для завантаження</h3>
+                <div class="download-list">
+                    <button class="download-photo" data-src="img/в очках.jpg">В очках</button>
+                    <button class="download-photo" data-src="img/2 місяці.jpg">2 місяці</button>
+                    <button class="download-photo" data-src="img/з бабусею.jpg">З бабусею</button>
+                    <button class="download-photo" data-src="img/тільки приїхав додому.jpg">Тільки приїхав додому</button>
+                    <button class="download-photo" data-src="img/миле відео.mp4">Миле відео (відео)</button>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <figure class="card">
+                <img src="img/в очках.jpg" alt="в очках">
+                <figcaption><b>В очках</b><br><span class="gallery-desc">Перші стильні окуляри — маленький модник, який відкриває світ по-новому!</span></figcaption>
+            </figure>
+            <figure class="card">
+                <div class="gallery-media-wrap">
+                    <video controls poster="img/миле відео.jpg" class="gallery-video">
+                        <source src="img/миле відео.mp4" type="video/mp4">
+                        Ваш браузер не підтримує відео.
+                    </video>
+                </div>
+                <figcaption><b>Миле відео</b><br><span class="gallery-desc">Ніжні моменти дитинства: перші посмішки, рухи та щирі емоції.</span></figcaption>
+            </figure>
+            <figure class="card">
+                <img src="img/2 місяці.jpg" alt="2 місяці">
+                <figcaption><b>2 місяці</b><br><span class="gallery-desc">Вже два місяці радості, відкриттів і маленьких перемог!</span></figcaption>
+            </figure>
+            <figure class="card">
+                <img src="img/з бабусею.jpg" alt="з бабусею">
+                <figcaption><b>З бабусею</b><br><span class="gallery-desc">Тепло родинних обіймів і турбота найдорожчих людей.</span></figcaption>
+            </figure>
+            <figure class="card">
+                <img src="img/тільки приїхав додому.jpg" alt="тільки приїхав додому">
+                <figcaption><b>Тільки приїхав додому</b><br><span class="gallery-desc">Перші хвилини вдома: знайомство з новим світом і початок великої пригоди.</span></figcaption>
+            </figure>
+        </div>
+    </div>
+    <button class="up-btn" id="upBtn" title="Вгору">↑</button>
+    <footer>
+        &copy; 2025 Тимур і родина
+    </footer>
+    <!-- Модальне вікно для перегляду фото/відео -->
+    <div id="modal-viewer" class="modal-viewer">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+    <script>
+        // Кнопка "Наверх"
+        const upBtn = document.getElementById('upBtn');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                upBtn.style.display = 'flex';
+            } else {
+                upBtn.style.display = 'none';
+            }
+        });
+        upBtn.onclick = () => window.scrollTo({top:0, behavior:'smooth'});
+
+        // Модальне вікно для фото/відео
+        const modal = document.getElementById('modal-viewer');
+        const modalContent = document.getElementById('modalContent');
+        const modalClose = document.getElementById('modalClose');
+
+        function openModal(contentHtml) {
+            modalContent.innerHTML = contentHtml;
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal() {
+            modal.style.display = 'none';
+            modalContent.innerHTML = '';
+            document.body.style.overflow = '';
+        }
+        modalClose.onclick = closeModal;
+        modal.onclick = function(e) {
+            if (e.target === modal) closeModal();
+        };
+
+        // Навішуємо обробники на всі фото і відео в галереї
+        setTimeout(() => {
+            document.querySelectorAll('.gallery .card img').forEach(img => {
+                img.style.cursor = 'zoom-in';
+                img.onclick = () => openModal(`<img src='${img.src}' alt='${img.alt}' style='max-width:96vw;max-height:90vh;border-radius:18px;'>`);
+            });
+            document.querySelectorAll('.gallery .gallery-video').forEach(video => {
+                video.style.cursor = 'zoom-in';
+                video.onclick = () => openModal(`<video src='${video.querySelector('source').src}' controls autoplay style='max-width:96vw;max-height:90vh;border-radius:18px;background:#000;'></video>`);
+            });
+        }, 100);
+
+        // Модальное окно выбора фото для скачивания
+        const downloadBtn = document.getElementById('downloadBtn');
+        const downloadModal = document.getElementById('download-modal');
+        const downloadModalClose = document.getElementById('downloadModalClose');
+
+        downloadBtn.onclick = function() {
+            downloadModal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+        downloadModalClose.onclick = closeDownloadModal;
+        downloadModal.onclick = function(e) {
+            if (e.target === downloadModal) closeDownloadModal();
+        }
+        function closeDownloadModal() {
+            downloadModal.style.display = 'none';
+            document.body.style.overflow = '';
+        }
+        document.querySelectorAll('.download-photo').forEach(btn => {
+            btn.onclick = function() {
+                const src = btn.getAttribute('data-src');
+                const a = document.createElement('a');
+                a.href = src;
+                a.download = src.split('/').pop();
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                closeDownloadModal();
+            }
+        });
+    </script>
+</body>
+</html>
